@@ -2,7 +2,18 @@
 name = "chenginity"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+keywords = ["chess", "engine", "infinity"]
+repository = "https://github.com/BenjaminBrienen/chenginity"
+authors = ["Benjamin Brienen"]
+categories = ["games", "mathematics", "simulation", "parsing", "gamedev"]
+readme = "README.md"
+homepage = "https://benjamin.brienen.dev/chenginity"
+documentation = "https://benjamin.brienen.dev/chenginity/documentation"
+license = "GPL-3.0-or-later"
+description = "Chess game that lets you customize the experience to the extreme."
 
 [dependencies]
+colored = "2.0.0"
+random = "0.12.2"
+[dev-dependencies]
+test-case = "2.2.1"
